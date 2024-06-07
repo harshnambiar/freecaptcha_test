@@ -43,7 +43,7 @@
     />
     <link rel="stylesheet" href="./main.css" />
   </head>
-  <body class="home">
+  <body class="home" onload='flush();'>
     
     <!-- Home Wrapper -->
     <div class="homeWrapper">
@@ -64,8 +64,8 @@
           <canvas id="captcha" width="200" height="100"></canvas>
           <form id="cap_form"  onsubmit="validateCaptcha()">
             
-            <input type="text" placeholder="Captcha" id="cpatchaTextBox"/><br/><br/>
-            <button type="submit">Submit</button>
+            <input type="text" placeholder="Captcha" id="captchaTextBox" height="120"/>
+              <button type="button" style="margin-top: 7px;" onclick="validateCaptcha();">Submit</button>
           </form>
         </div>
       </div>
