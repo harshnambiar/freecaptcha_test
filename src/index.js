@@ -17,6 +17,7 @@ async function validateCaptcha(){
     var inp = el.value;
     if (inp == ''){
         console.log("false");
+        await freecaptcha();
         return;
     }
     const cval = localStorage.getItem('cap');
@@ -27,6 +28,7 @@ async function validateCaptcha(){
         console.log("false");
     }
     el.value = '';
+    await freecaptcha();
 }
 window.validateCaptcha = validateCaptcha;
 
