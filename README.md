@@ -13,3 +13,7 @@ Thanks for giving FreeCaptcha a chance!!
 The Captcha is always a 9 letter code formed by entering the White, Navy Blue and Red Text (in order). Ignore the text of every other color.  
 ![freecaptcha_text](https://i.postimg.cc/3RXMTg2Q/image.png)  
 For example, in this case, the correct value of the Captcha is joKYnpAbw
+
+
+# What's New in This Update?  
+Added font randomization to make automated clearance harder. 
